@@ -1,19 +1,45 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-Ans :
+Ans : a computer language used for making software programs and scripts for computers to execute in system applications.
 
 What jdk contains or composed of and define each components?
+Ans : JDK is composed of
+
 What is IDE?
+Ans : Integrated Development Environment
+
 What are the IDEs available in the market to support java?
+Ans : IntelliJ, Eclipse, Netbeans, JDeveloper, MyEclipse, JSource, DrJava are some.
+
 Explain the entire java life cycle.
+Ans :   source code: "java program"
+        Compiler:
+        Byte code: "Java interpreter"
+        Virtual machine: "Computer"
+
 what is class?
+Ans : class is under a package and sets how objects should be made
+
 What is object?
+Ans: created in a class, it set how methods act
+
 What is the entry point of an application?
+Ans : the main method public static void main(String[] args){
+
 Why main is static?
+Ans : because it needs to be called by the compiler to start executing the program
+
 Which class is the superclass of all classes?
+Ans : object
+
 What is difference between path and classpath variables?
+Ans :
+
 What is the difference between an Interface and Abstract class?
+Ans : abstract class allows you to create functionality that subclasses can implement or override.
+ An interface only allows you to define functionality, not implement it.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
 What is OOP ? Define each feature of java OOP.
