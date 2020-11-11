@@ -1,16 +1,16 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-Ans : a computer language used for making software programs and scripts for computers to execute in system applications.
+Ans :   a computer language used for making software programs and scripts for computers to execute in system applications.
 
 What jdk contains or composed of and define each components?
-Ans : JDK is composed of
+Ans :   JDK is composed of
 
 What is IDE?
-Ans : Integrated Development Environment
+Ans :   Integrated Development Environment
 
 What are the IDEs available in the market to support java?
-Ans : IntelliJ, Eclipse, Netbeans, JDeveloper, MyEclipse, JSource, DrJava are some.
+Ans :   IntelliJ, Eclipse, Netbeans, JDeveloper, MyEclipse, JSource, DrJava are some.
 
 Explain the entire java life cycle.
 Ans :   source code: "java program"
@@ -19,35 +19,56 @@ Ans :   source code: "java program"
         Virtual machine: "Computer"
 
 what is class?
-Ans : class is under a package and sets how objects should be made
+Ans :   class is under a package and sets how objects should be made
 
 What is object?
-Ans: created in a class, it set how methods act
+Ans:    created in a class, it set how methods act
 
 What is the entry point of an application?
-Ans : the main method public static void main(String[] args){
+Ans :   the main method public static void main(String[] args){
 
 Why main is static?
-Ans : because it needs to be called by the compiler to start executing the program
+Ans :   because it needs to be called by the compiler to start executing the program
 
 Which class is the superclass of all classes?
-Ans : object
+Ans :   object
 
 What is difference between path and classpath variables?
-Ans :
+Ans :   Path is an environment variable used to locate JDK binaries. Classpath is an environment variable used by System
+        or Application Classloader to locate or compile Java bytecodes.
 
 What is the difference between an Interface and Abstract class?
-Ans : abstract class allows you to create functionality that subclasses can implement or override.
- An interface only allows you to define functionality, not implement it.
+Ans :   abstract class allows you to create functionality that subclasses can implement or override.
+        An interface only allows you to define functionality, not implement it.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Ans :   No. You can use it by creating a reference variable to reference the object.
+
 what is Access Specifier?
+Ans :   (Visibility specifiers) used to restrict and regulate access to classes, fields and methods.
+
 What is OOP ? Define each feature of java OOP.
+Ans :   Object-Oriented Programming.
+        Encapsulation = Data hiding. template class.
+        Polymorphism = Having many forms (method overloading)
+        Inheritance = when existing classes sharing attributes with other classes
+        Abstraction = taking objects, classes, and variables to represent more complex data
+
 What is Java Package and which package is imported by default?
+Ans :   a group of related classes. java.lang is imported by default.
+
 What is API? Name list of API that you have used so far.
+Ans :   Application Programming Interface. Facebook, Amazon, and Java are a few APIs I have used to far.
+
 Does java support multiple inheritance, explain why or why not?
+Ans :   Yes, because more than one interface can be implemented in programming without a problem.
+
 What is method overloading and when it happens?
+Ans :   Same method name with different parameters in the same class. happens in polymorphism while compiling.
+
 Explain exceptions in java and how to handle it.
+Ans :
+
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
