@@ -23,9 +23,9 @@ public class Permutation {
         for (int i=0; i<item1.length(); i++) {
             char alphabet = item1.charAt(i);
             String character = item1.substring(0, i) + item1.substring(i + 1);
-            if (index[alphabet - 'A'] == false)
+            if (index[alphabet-'A']==false)
                 Permutation(character, item2 + alphabet);
-            index[alphabet - 'A'] = true;
+            index[alphabet-'A']=true;
         }
     }
 }

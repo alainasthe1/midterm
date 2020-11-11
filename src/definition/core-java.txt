@@ -67,27 +67,71 @@ What is method overloading and when it happens?
 Ans :   Same method name with different parameters in the same class. happens in polymorphism while compiling.
 
 Explain exceptions in java and how to handle it.
-Ans :
+Ans :   Exception is an unwanted event that interrupts the normal flow of the program. You can handle it by using try
+        catch finally or try with resource.
 
 What is static keyword in java? How it has been used in variables and methods ?
+Ans :   static keyword is a non-access modifier used primarily for memory management.
+
 What is final and how it has been used variables and methods?
+Ans :
+
 What is final, finally and finalize?
+Ans :   Final is a keyword used to apply restrictions on class, method and variable. Can't be inherited, or overridden.
+        Finally is a block that is used to place important code that will be executed whether exception is handled or
+            not. used in a try/catch statement to execute code
+        Finalize is a method used to perform cleanup processing just before an object is collected
+
 What is a constructor ?
+Ans :   a block of code that initializes a newly created object.
+
 Can we have multiple constructors in a class?
+Ans :   Yes
+
 If we don't have a constructor declared, what is called during the object creation?
+Ans :   the default constructor.
+
 What is "this" keyword in java ?
+Ans :   a reference to the current object.
+
 What is "super" keyword in java? How many possible way can you use?
+Ans :
+
 What is JVM stand for ?
+Ans :   Java Virtual Machine.
+
 Is JVM platform independent?
+Ans :   No
+
 What version of java are you using?
+Ans :   java version "11.0.8" 2020-07-14 LTS
+
 What is JAR stand for ?
+Ans :   Java ARchive
+
 What is the difference between JDK and JVM?
+Ans :   JDK contains JVM while JVM converts bytecode to machine code and execute it on machine.
+
 What is the difference between JVM and JRE?
+Ans :   JVM converts Byte code to machine specific code while JRE is the implementation of JVM.
+
 What is compile time and run time?
+Ans : compile time compiles the program and run time runs it
+
 What is heap?
+Ans :
+
 How java manage it's memory?
+Ans :   automatically with garbage collector
+
 What is the difference between String, StringBuffer and StringBuilder?
+Ans :   String is immutable whereas StringBuffer and StringBuilder are mutable classes.
+        StringBuffer is thread safe and synchronized, StringBuilder is not so its faster
+        than StringBuffer.
+
 What is Singleton class?
+Ans :
+
 What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
